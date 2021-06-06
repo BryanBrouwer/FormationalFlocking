@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Gameplay">
+      <UniqueIdentifier>{d2441061-2c6f-4d6c-9dd1-cb3dc955d143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameplay\AI">
+      <UniqueIdentifier>{99bb7a58-e8f8-4cda-9ae5-acfa3b8bc56e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay">
+      <UniqueIdentifier>{b64e83ca-cb66-4b6a-a72c-301fcfc62ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay\AI">
+      <UniqueIdentifier>{33717597-d133-4ad1-8c24-69c98959c444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\JSON">
+      <UniqueIdentifier>{bd57e139-fcd0-40be-a2e3-5620a4d8a5cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gameplay\AI\FlockDataManager.cpp">
+      <Filter>Source Files\Gameplay\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gameplay\Simulation.cpp">
+      <Filter>Source Files\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gameplay\AI\Unit.cpp">
+      <Filter>Source Files\Gameplay\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gameplay\AI\Formation.cpp">
+      <Filter>Source Files\Gameplay\AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Gameplay\AI\FlockDataManager.h">
+      <Filter>Header Files\Gameplay\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Gameplay\Simulation.h">
+      <Filter>Header Files\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Gameplay\AI\Unit.h">
+      <Filter>Header Files\Gameplay\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Gameplay\AI\Formation.h">
+      <Filter>Header Files\Gameplay\AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JSON\Traits.json">
+      <Filter>Resource Files\JSON</Filter>
+    </None>
+    <None Include="JSON\FlockVariables.json">
+      <Filter>Resource Files\JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>
