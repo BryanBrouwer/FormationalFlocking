@@ -1,0 +1,15 @@
+{
+  "cohesionBias": 4.00,
+  "separationBias": 3.00,
+  "alignmentBias": 2.00,
+  "perceptionRadius": 10.00,
+  "fieldOfView": 60.00,
+  "maxPerceived": 5.00,
+  "cellSize": 10.00,
+  "acceptanceDistance": 0.80,
+  "collisionRange": 1.00,
+  "collisionBias": 1.00,
+  "maxToCollide": 1.00,
+  "speed": 45.00,
+  "formationSpeed": 50.00
+}
